@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import './App.css'
 
 const App = () => {
   const [items, setItems] = useState([])
@@ -11,4 +10,4 @@ const App = () => {
   return <ul>{items.map(item => <li key={item}>{item}</li>)}</ul>;
 }
 
-export default App
+export default App;
